@@ -25,6 +25,8 @@ stackoverflow_username: tannakartikey
 linkedin_username: tannakartikey
 
 google_analytics: UA-137738940-1
+disqus:
+  shortname: tannakartikey-github-io
 
 # Build settings
 markdown: kramdown

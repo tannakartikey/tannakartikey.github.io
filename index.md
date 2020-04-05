@@ -5,7 +5,7 @@
 layout: page
 ---
 
-I am a fullstack web developer with 5 years of experience. 2+ years of experience with Ruby on Rails.
+I am a fullstack web developer with 5 years of experience.
 
 I like to write code which is readable, has excellent test coverage, and easily maintainable.
 

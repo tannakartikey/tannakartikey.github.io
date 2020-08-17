@@ -18,21 +18,24 @@ email: tannakartikey@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is the personal website of Kartikey Tanna.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tannakartikey.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.kartikey.dev" # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: tannakartikey
 github_username: tannakartikey
 stackoverflow_username: tannakartikey
 linkedin_username: tannakartikey
 
-google_analytics: UA-137738940-1
+google_analytics: UA-162859155-1
+
 disqus:
-  shortname: tannakartikey-github-io
+  shortname: https-www-kartikey-dev
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

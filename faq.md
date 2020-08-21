@@ -30,7 +30,7 @@ My friendly nature and a sense of ownership I work with.
 **Have you had “unhappy clients”?!! If yes, then how did you deal with them?**  
 Very few. I found better clients for myself!
 
-**What is the method of communication with your clients?**  
+**What is the method of communication you use with your clients?**  
 We do video calls during the first few meetings while we are shaping up the idea and the client
 briefs me about the project. Then I prefer to do more of written communication and fewer meetings
 and calls. I am fortunate that most of the time it has worked without any hassle.

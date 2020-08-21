@@ -43,6 +43,9 @@ without compromising my or their personal life and health.
 **How do you get clients?**  
 I am often referred by previous clients. I also get work from [LinkedIn](https://www.linkedin.com/in/tannakartikey/), [Upwork](https://www.upwork.com/freelancers/~01393c9ea8f23bfff3), and even [Twitter](https://twitter.com/@tannakartikey)
 
+**What do you do when you are between projects?**  
+It is the best time to pay full attention and learn something. You can also contribute to open-source, improve your profile, and work on personal projects. I prefer to do all of them.
+
 [comment]: <> (**How does your working envrionment look like?**)
 [comment]: <> (**What is your biggest achievement?**)
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Why I freelance, and why should you too."
 ---
 
-I kicked off my career by working at a typical 9 to 6 IT firm. A few days into the job, I realized I was wasting my time. Outside the office, I wouldn't need a break-even after working for hours. But at the office, I would keep eyeing the clock, and there were many others like me! So I realized I wasn't the one malfunctioning! 
+I kicked off my career by working at a typical 9 to 6 IT firm. A few days into the job, I realized I was wasting my time. Outside the office, I wouldn't need a break even after working for hours. But at the office, I would keep eyeing the clock, and there were many others like me! So I realized I wasn't the one malfunctioning! 
 
 There are times when you feel like starting your day late or feel like cooking a delicious meal for yourself and your wife or come across something worth learning and spending a few hours over it. It can even be beautiful weather worth going out for a walk! In such times, we cannot command our minds to kindle the mood to work even when we don't want to.
 

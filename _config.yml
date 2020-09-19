@@ -18,7 +18,7 @@ email: tannakartikey@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is the personal website of Kartikey Tanna.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.kartikey.dev" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kartikey.dev" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_username: tannakartikey
 github_username: tannakartikey
@@ -36,10 +36,15 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-last-modified-at
 
 header_pages:
   - faq.md
   - blog.md
+
+last-modified-at:
+  date-format: '%b %d, %Y'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

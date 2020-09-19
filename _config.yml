@@ -13,12 +13,32 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Kartikey Tanna
+title: Kartikey's Blog
+tagline: Kartikey's blog on programming and freelancing!
 email: tannakartikey@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the personal website of Kartikey Tanna.
+  A blog by Kartikey Tanna on programming and freelancing.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kartikey.dev" # the base hostname & protocol for your site, e.g. http://example.com
+
+author: tannakartikey
+
+twitter:
+  username: tannakartikey
+  card: summary
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/me.jpg
+
+social:
+  links:
+    - https://twitter.com/tannakartikey
+    - https://github.com/tannakartikey
+    - https://www.linkedin.com/in/tannakartikey/
+    - https://www.facebook.com/tanna.kartikeya/
 
 twitter_username: tannakartikey
 github_username: tannakartikey

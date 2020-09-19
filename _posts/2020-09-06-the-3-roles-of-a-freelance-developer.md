@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The 3 Roles of a Freelance Developer"
+image: /assets/brahma-vishnu-mahesh.jpeg
 ---
 
 According to Hindu mythology, the three cosmic functions of creation, sustaining, and transformation/destruction of the universe are performed by Lord Brahma, Lord Vishnu, and Lord Shiva, respectively. Similarly, to stand apart from others, we have to perform these three Godlike functions in our human profession! Let’s look into it from a freelance developer’s point of view.

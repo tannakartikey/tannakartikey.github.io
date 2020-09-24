@@ -54,3 +54,15 @@ $on-large:         $on-laptop !default;
   "minima/layout",
   "minima/syntax-highlighting"
 ;
+
+.post-tags {
+  display: inline-block;
+  float: right;
+
+  .post-tag {
+    color: white;
+    background: grey;
+    padding: 2px;
+  }
+}
+

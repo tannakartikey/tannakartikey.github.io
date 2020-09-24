@@ -57,11 +57,11 @@ google_analytics: UA-162859155-1
 disqus:
   shortname: https-www-kartikey-dev
 
+
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-last-modified-at
 

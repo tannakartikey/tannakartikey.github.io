@@ -1,4 +1,9 @@
-#### Many-to-many relationship without a join table.
+---
+layout: post
+title:  "Many-to-many relationship without a join table."
+tags: rails
+---
+
 ##### Migration
 ```ruby
 class CreateJoinTableSKUKits < ActiveRecord::Migration[6.0]

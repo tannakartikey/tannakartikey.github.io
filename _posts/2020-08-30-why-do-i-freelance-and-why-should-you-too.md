@@ -2,6 +2,7 @@
 layout: post
 title:  "Why I freelance, and why should you too."
 image: /assets/perks-of-freelancing.jpg
+tag: freelancing
 ---
 
 I kicked off my career by working at a typical 9 to 6 IT firm. A few days into the job, I realized I was wasting my time. Outside the office, I wouldn't need a break, even after working for hours. But at the office, I would keep eyeing the clock, and there were many others like me! So I realized I wasn't malfunctioning! 

@@ -2,6 +2,7 @@
 layout: post
 title:  "Challenges I face as a freelancer and how I overcome them"
 image: /assets/freelancing-overcome-challenge.jpg
+tags: freelancing
 ---
 
 My initial days as a freelancer were rather difficult and confusing. There were multiple challenges that I learned to overcome the hard-way.  

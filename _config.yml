@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A blog by Kartikey Tanna on programming and freelancing.
   I am a programmer and an avid meditator.
   Enjoy cooking and eating vegetarian food.
-  Hate traveling but would go to the end of the world for a good pizza! I have 2 years of experience in being a good husband! 😃
+  Hate traveling but would go to the end of the world for a good pizza! I have two years of experience in being a good husband! 😃
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.kartikey.dev" # the base hostname & protocol for your site, e.g. http://example.com
 

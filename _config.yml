@@ -24,7 +24,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.kartikey.dev" # the base hostname & protocol for your site, e.g. http://example.com
 
-author: tannakartikey
+author:
+  name: "Kartikey Tanna"
+  email: "tannakartikey@gmail.com"
 
 social_links:
   twitter: tannakartikey

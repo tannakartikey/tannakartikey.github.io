@@ -26,6 +26,13 @@ url: "https://www.kartikey.dev" # the base hostname & protocol for your site, e.
 
 author: tannakartikey
 
+social_links:
+  twitter: tannakartikey
+  github: tannakartikey
+  linkedin: tannakartikey
+  devto: tannakartikey
+  stackoverflow: "2422068"
+
 twitter:
   username: tannakartikey
   card: summary_large_image
@@ -43,11 +50,6 @@ social:
     - https://www.linkedin.com/in/tannakartikey/
     - https://www.facebook.com/tanna.kartikeya/
 
-twitter_username: tannakartikey
-github_username: tannakartikey
-stackoverflow_username: tannakartikey
-linkedin_username: tannakartikey
-
 google_analytics: UA-162859155-1
 
 disqus:
@@ -55,7 +57,6 @@ disqus:
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

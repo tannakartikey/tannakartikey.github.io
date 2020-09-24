@@ -262,7 +262,6 @@ DEPENDENCIES
   jekyll-last-modified-at
   jekyll-seo-tag (~> 2.5)
   jekyll-sitemap
-  minima (= 2.5.1)
   tzinfo-data
 
 BUNDLED WITH

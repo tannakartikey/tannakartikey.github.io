@@ -1,0 +1,38 @@
+{%- assign social = site.social_links -%}
+<ul class="social-media-list">
+  <li>
+    <a rel="me" href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}">
+      <svg class="svg-icon grey">
+        <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
+      </svg>
+    </a>
+  </li>
+  <li>
+    <a rel="me" href="https://stackoverflow.com/users/{{ social.stackoverflow | cgi_escape | escape }}" title="{{ social.stackoverflow | escape }}">
+      <svg class="svg-icon grey">
+        <use xlink:href="{{ '/assets/minima-social-icons.svg#stackoverflow' | relative_url }}"></use>
+      </svg>
+    </a>
+  </li>
+  <li>
+    <a rel="me" href="https://www.linkedin.com/in/{{ social.linkedin | cgi_escape | escape }}" title="{{ social.linkedin | escape }}">
+      <svg class="svg-icon grey">
+        <use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use>
+      </svg>
+    </a>
+  </li>
+  <li>
+    <a rel="me" href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}" title="{{ social.twitter | escape }}">
+      <svg class="svg-icon grey">
+        <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
+      </svg>
+    </a>
+  </li>
+  <li>
+    <a href="https://dev.to/{{ social.devto | cgi_escape | escape }}" title="{{ social.devto | escape }}">
+      <svg class="svg-icon grey">
+        <use xlink:href="{{ '/assets/minima-social-icons.svg#devto' | relative_url }}"></use>
+      </svg>
+    </a>
+  </li>
+</ul>

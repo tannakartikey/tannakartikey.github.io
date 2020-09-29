@@ -4,9 +4,15 @@ title:  "Many-to-many self join in Rails"
 tags: rails
 ---
 
-There are multiple ways we can implement self-joins.
+Let's say we have "products" and we want to prepare "kits" of those products. Kits are nothing but the group of the products.  
+
+We can use many-to-many relationship here because products can be in many kits, and kits can be associated with many products.  
+
+Also, since the kits are just grouping the products, we can use self-joins. There are multiple ways we can implement self-joins.
 
 ### Using has\_and\_belongs\_to\_many
+
+You can read more about [has_and_belongs_to_many](https://guides.rubyonrails.org/association_basics.html#the-has-and-belongs-to-many-association){:target="_blank"} on Rails docs.
 #### Migration
 ```ruby
 class CreateJoinTableProductKits < ActiveRecord::Migration[6.0]
@@ -33,7 +39,9 @@ end
 ### Using has\_many through
 This approach is better because later on in your project you can add more fields and validations in `ProductKit` model.
 As you know, our projects are always dynamic and most of the time(all the time) we end up modifying the flow. So, it is
-better to be prepared and use `has_many: through` from the beginning.
+better to be prepared and use `has_many :through` from the beginning.
+
+More on, [`has_many :through`](https://guides.rubyonrails.org/association_basics.html#the-has-many-through-association){:target="_blank"} on Rails docs.
 
 #### Migration
 ```ruby

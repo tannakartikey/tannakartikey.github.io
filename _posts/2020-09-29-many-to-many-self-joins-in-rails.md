@@ -62,7 +62,7 @@ end
 ```ruby
 class Product < ApplicationRecord
   has_many :product_kits, dependent: :destroy
-  has_many :products, through: :product_kits
+  has_many :kits, through: :product_kits
 end
 ```
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Memory efficient way of reading and downloading a file in Ruby"
+title:  "Memory efficient way of reading and downloading a large file in Ruby"
 image: /assets/files_image.jpg
 tags: ruby
 ---

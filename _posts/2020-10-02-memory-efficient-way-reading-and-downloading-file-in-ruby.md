@@ -12,7 +12,7 @@ It can accept the block to execute each line of a file.
 
 Example:
 
-```
+```ruby
 File.foreach('example.jsonl') { |line| JSON.parse(line) }
 ```
 
@@ -24,7 +24,7 @@ We can use [`IO.copy_stream`](https://ruby-doc.org/core-2.7.1/IO.html#method-c-c
 
 Example:
 
-```
+```ruby
 IO.copy_stream(open('http://example.com/file.jsonl'), 'file.jsonl')
 ```
 

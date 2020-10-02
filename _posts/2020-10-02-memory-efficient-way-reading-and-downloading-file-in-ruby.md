@@ -2,7 +2,7 @@
 layout: post
 title:  "Memory efficient way of reading and downloading file in Ruby"
 image: /assets/files_image.jpg
-tags: rails
+tags: ruby
 ---
 
 ### To read a large file from the disk

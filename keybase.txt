@@ -1,0 +1,57 @@
+tannakartikey
+==================================================================
+https://keybase.io/tannakartikey
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kartikey.dev
+  * I am tannakartikey (https://keybase.io/tannakartikey) on keybase.
+  * I have a public key ASAFTdi0U4QFng4ULAHyBwNVImv8O9BpLxbDfSHXCU3vXQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120054dd8b45384059e0e142c01f2070355226bfc3bd0692f16c37d21d7094def5d0a",
+      "host": "keybase.io",
+      "kid": "0120054dd8b45384059e0e142c01f2070355226bfc3bd0692f16c37d21d7094def5d0a",
+      "uid": "712805e35bc14fee46167e1c29a9cc19",
+      "username": "tannakartikey"
+    },
+    "merkle_root": {
+      "ctime": 1621094121,
+      "hash": "4d80796630b4a763617a278d6fb3ee107f850da9631ccb8ff639b7e2cd70703ec5f88b49ef29dd0a52fc262b7ecbb74b8c8b4ca261c76d432c88c1acfd9e2f9d",
+      "hash_meta": "92a0cb21998cd7253f0e1d48ebe9e0a2413a64b14a99be935249ae41ce9544aa",
+      "seqno": 19951510
+    },
+    "service": {
+      "entropy": "JYbCTuodKqBRyK11K9Qkl1aM",
+      "hostname": "kartikey.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.1"
+  },
+  "ctime": 1621094135,
+  "expire_in": 504576000,
+  "prev": "42c9bae7f9c3f9409b6c9196fb0b6fb022ab69abdb9fb7651ac6d818b3b4fc22",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgBU3YtFOEBZ4OFCwB8gcDVSJr/DvQaS8Ww30h1wlN710Kp3BheWxvYWTESpcCCsQgQsm65/nD+UCbbJGW+wtvsCKraavbn7dlGsbYGLO0/CLEIA2y8UxFMRFiHC93nfN4gJABV1y0iG6JOanqDLABL77IAgHCo3NpZ8RASCdsi4/pceMB7XwVe1jN96XU/EQevHlydv/93QGSB8CPA99YSpa81tEYOeOQhY97rBYE9RW85jEW1QKPhcdcC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHOBATHzVGXR/QDNJoPIZow067ClOf9Yf4LDuysvhXj6o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tannakartikey
+
+==================================================================

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deploy Rails app and Postgres with MRSK on single DigitalOcean server
-image: "/assets/deploy-with-mrsk.jpeg"
+image: "/assets/deploy-with-mrsk.png"
 tags: mrsk rails postgresql
 date: 2023-04-05 18:38 +0530
 ---

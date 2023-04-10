@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to deploy a NodeJS application using MRSK
+tags: mrsk
 date: 2023-04-10 13:55 +0530
 ---
 [MRSK](https://mrsk.dev) is created by DHH - founder of Rails, but the tool is not limited to deploy only Rails applications. MRSK is a simple tool that automates some Docker related commands. That is why it can support any platform/language. In this post, let's see how to deploy a NodeJS application on a small DigitalOcean VPS using MRSK.

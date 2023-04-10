@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to modify MRSK gem to deploy multi-environment(staging, production) applications
+image: /assets/how-to-modify-mrsk-gem-to-deploy-multi-environment-staging-production-applications.png
 tags: mrsk rails postgresql
 date: 2023-04-09 14:15 +0530
 ---

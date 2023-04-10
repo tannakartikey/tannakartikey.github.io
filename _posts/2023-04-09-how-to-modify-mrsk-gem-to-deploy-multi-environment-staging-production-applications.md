@@ -19,7 +19,7 @@ Now, what MRSK does is that it assigns some default labels to the containers tha
 
 Let's understand by an example. The name of your MRSK service is "myapp". MRSK labels all the containers of all the roles and destinations with the "traefik.http.routers.myapp.rule" rule. Now, to associate staging.example.com with myapp-staging container, if you assign the lable "traefik.http.routers.myapp-staging.rule" then MRSK will try to assign both the labels to the Docker container. And you can not have more than one service declared for the same container.
 
-[The PR](https://github.com/mrsked/mrsk/pull/197) I have created resolves this issue. It labels containers in the "service-role-destination" format. So, if you have "myapp" service, "web" role, and "staging"destination, then the label assigned to the containers will be "traefik.http.routers.myapp-web-staging.rule". This way you can target any specific role and destination to override the rules.
+[The PR](https://github.com/mrsked/mrsk/pull/197){:target="_blank"} I have created resolves this issue. It labels containers in the "service-role-destination" format. So, if you have "myapp" service, "web" role, and "staging"destination, then the label assigned to the containers will be "traefik.http.routers.myapp-web-staging.rule". This way you can target any specific role and destination to override the rules.
 
 Don't worry if it all does not make sense at the moment. It will get crystal clear once we looks at the configuration.
 

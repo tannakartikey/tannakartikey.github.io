@@ -1,7 +1,21 @@
 {%- assign social = site.social_links -%}
 <ul class="social-media-list">
   <li>
-    <a rel="me" href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}">
+    <a href="{{ 'feed.xml' | relative_url }}">
+      <svg class="svg-icon grey">
+        <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+      </svg>
+    </a>
+  </li>
+  <li>
+    <a rel="me" href="https://keybase.io/{{ social.keybase }}" target="_blank">
+      <svg class="svg-icon grey">
+        <use xlink:href="{{ 'assets/minima-social-icons.svg#keybase' | relative_url }}"></use>
+      </svg>
+    </a>
+  </li>
+  <li>
+    <a rel="me" href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}" target="_blank">
       <svg class="svg-icon grey">
         <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
       </svg>

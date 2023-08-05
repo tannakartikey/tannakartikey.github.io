@@ -2,15 +2,6 @@
 layout: default
 ---
 <div class="home">
-  <div class="row" style="display: flex; margin-bottom: 30px">
-    <div class="column" style="flex: 50%; margin-right: 15px">
-      <img src="/assets/me.jpg" alt="Kartikey Tanna's Photo">
-    </div>
-    <div class="column" style="flex: 50%; margin-left: 15px">
-      {{ content }}
-    </div>
-  </div>
-
     {% if site.paginate %}
       {% assign posts = paginator.posts %}
     {% else %}
@@ -18,6 +9,7 @@ layout: default
     {% endif %}
 
 
+    <div>
     {%- if posts.size > 0 -%}
    	<h1>Posts</h1>
       {%- if page.list_title -%}
@@ -59,5 +51,6 @@ layout: default
       {%- endif %}
 
     {%- endif -%}
+    </div>
   </div>
 </div>

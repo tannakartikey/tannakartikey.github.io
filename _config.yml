@@ -34,6 +34,7 @@ social_links:
   linkedin: tannakartikey
   devto: tannakartikey
   stackoverflow: "2422068"
+  keybase: tannakartikey
 
 twitter:
   username: tannakartikey
@@ -68,6 +69,7 @@ plugins:
 header_pages:
   - faq.md
   - blog.md
+  - about.md
 
 last-modified-at:
   date-format: '%b %d, %Y'

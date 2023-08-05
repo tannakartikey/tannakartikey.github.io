@@ -3,13 +3,6 @@
 
   <div class="wrapper">
     <div class="social-links">
-      {%- if site.author %}
-        <ul class="contact-list" style="text-align: center;">
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
       {%- include social.html -%}
     </div>
   </div>

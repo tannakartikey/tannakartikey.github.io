@@ -6,8 +6,6 @@ tags: rails postgresql
 
 I recently published a [post in a Ruby on Rails group on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7093289792351707136/){:target="_blank"} about a rake task I bring to most of my projects. This Rake task deletes the `schema.rb` file and regenerates it. I got many reactions from fellow developers and that motivated me to write this post.
 
-I always thought that the migrations were the source of truth for the database, and any team member in any environment should be able to generate the same `schema.rb` file successfully with the migrations. 
-
 ## Understanding the Purpose of Rails' schema.rb File
 
 The `schema.rb` file is essentially a blueprint of your Rails application's database. Imagine your app as a house - the schema.rb is the floor plan you'd show your architect. It outlines your database's structure, detailing tables, columns, their types, primary keys, and even relationships between them. Migrations update and generate this file automatically.

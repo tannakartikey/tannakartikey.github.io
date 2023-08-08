@@ -41,7 +41,7 @@ The [first version](https://github.com/rails/rails/blob/9eeb00976d4b0a963c58117b
 > **There is no need (and it is error prone) to deploy a new instance of an app by replaying the entire migration history.** It is much simpler and faster to just load into the database a description of the current schema.
 
 
-However, the [follow-up version](https://github.com/rails/rails/blob/84718df86097442f85999d6f2e6f6b8b59724c3f/guides/source/active_record_migrations.md#what-are-schema-files-for){:target="_blank"} from 2014 which we read [today](https://guides.rubyonrails.org/active_record_migrations.html#what-are-schema-files-for-questionmark){:target="_blank"} clearly states that your actual database remains the authoritative source.
+However, the [follow-up version](https://github.com/rails/rails/blob/84718df86097442f85999d6f2e6f6b8b59724c3f/guides/source/active_record_migrations.md#what-are-schema-files-for){:target="_blank"} from 2018 which we read [today](https://guides.rubyonrails.org/active_record_migrations.html#what-are-schema-files-for-questionmark){:target="_blank"} clearly states that your actual database remains the authoritative source.
 
 > **What are Schema Files for?**
 > 

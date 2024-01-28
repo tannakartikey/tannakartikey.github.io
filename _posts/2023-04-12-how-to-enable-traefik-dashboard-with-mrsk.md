@@ -1,11 +1,11 @@
 ---
 layout: post
-title: How to enable Traefik dashboard with MRSK
+title: How to enable Traefik dashboard with Kamal (previously MRSK)
 image: assets/traefik-dashboard.png
 tags: mrsk
 date: 2023-04-12 18:40 +0530
 ---
-[ MRSK ](https://mrsk.dev){:target="_blank"} uses Traefik as a dynamic reverse-proxy. Traefik has a beautiful [ dashboard ](https://doc.traefik.io/traefik/operations/dashboard/){:target="_blank"} to visually display the configuration. MRSK is not configured to show the dashboard by default. 
+[ Kamal ](https://kamal-deploy.org/){:target="_blank"} uses Traefik as a dynamic reverse-proxy. Traefik has a beautiful [ dashboard ](https://doc.traefik.io/traefik/operations/dashboard/){:target="_blank"} to visually display the configuration. Kamal is not configured to show the dashboard by default. 
 
 Traefik dashboard can run in two modes - secure and insecure. Traefik recommends secure mode but this post wil cover how to enable both the modes.
 
@@ -24,7 +24,7 @@ traefik:
     api.dashboard: true
     api.insecure: true
 ```
-After adding the configuration, run the `mrsk traefik reboot` command to apply the configuration. This command will stop, remove and start new container again with the latest configuration. The dashboard should be visible on the port `8080` of the host server now e.g. http://99.99.99.99:8080
+After adding the configuration, run the `kamal traefik reboot` command to apply the configuration. This command will stop, remove and start new container again with the latest configuration. The dashboard should be visible on the port `8080` of the host server now e.g. http://99.99.99.99:8080
 
 
 Now, let's see about the secure mode. It's called secure mode because the API is not expose on the entrypoint. We need to create a router rule that uses `api@internal` service. Let's look at the configuration for the secure model.
@@ -51,8 +51,8 @@ htpasswd -nb admin super_strong_password
 # output: admin:$apr1$2FGO09Gu$PSZdmmJqyrXWYvidWAm6p0
 ```
 
-You will get the password hash in the output. Just copy paste the output with the username:password in the labels. The official Traefik docs mention that you need to escape the `$` character but you don't need if you are using MRSK but MRSK [ escapes ](https://github.com/mrsked/mrsk#using-shell-expansion){:target="_blank"} the `$` sign for these labels.
+You will get the password hash in the output. Just copy paste the output with the username:password in the labels. The official Traefik docs mention that you need to escape the `$` character but you don't need if you are using Kamal but Kamal [ escapes ](https://github.com/mrsked/mrsk#using-shell-expansion){:target="_blank"} the `$` sign for these labels.
 
-That's it! Don't forget to reboot the Trafeik container with the `mrsk traefik reboot` comamnd. After that, the dashboard should be accessible on the http://traefik.example.com/dashboard endpoint.
+That's it! Don't forget to reboot the Trafeik container with the `kamal traefik reboot` comamnd. After that, the dashboard should be accessible on the http://traefik.example.com/dashboard endpoint.
 
 P.S. I would not recommend running the dashboard permanently if you are using a small single server with multple apps. Because that would eat up the valuable server resources. 

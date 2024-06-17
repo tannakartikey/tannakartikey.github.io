@@ -5,7 +5,7 @@ date: 2024-06-17 10:28 +0530
 tags: react kamal mrsk github
 ---
 
-I recently helped [Sidecar Learning](https://sidecarlearning.com) move their legacy application built with React front-end and Rails back-end migrate from Heroku and AWS to VPS over at DigitalOcean.
+I recently helped [Sidecar Learning](https://sidecarlearning.com){:target="_blank"} move their legacy application built with React front-end and Rails back-end migrate from Heroku and AWS to VPS over at DigitalOcean.
 
 This guide is outcome of that migration. React front-end was quite simple and do not have much moving parts so it's quite simple to do this. If you are looking to deploy monolith application then you can read the following posts I have written:
 
@@ -15,7 +15,7 @@ This guide is outcome of that migration. React front-end was quite simple and do
 
 ## Kamal Config
 
-First, let's create a simple `deploy.yml` for Kamal. The configuration is mostly boilerplate. I am using [GHA cache](https://docs.docker.com/build/cache/backends/gha/) to speed up the deploys.
+First, let's create a simple `deploy.yml` for Kamal. The configuration is mostly boilerplate. I am using [GHA cache](https://docs.docker.com/build/cache/backends/gha/){:target="_blank"} to speed up the deploys.
 
 ```yaml
 # config/deploy.yml
@@ -44,7 +44,7 @@ builder:
     options: mode=max
 ```
 
-If you wish to, you can use "registry" cache as well. I have noticed that it's faster by 5-10 seconds but if you are using free Docker Hub account then you only get one free image. That's why I prefer to use "gha" as cache back-end. Kamal only [supports](https://kamal-deploy.org/docs/configuration/builders/#using-multistage-builder-cache) "gha" and "registry". If you would like to use the "registry" cache, use the following builder config:
+If you wish to, you can use "registry" cache as well. I have noticed that it's faster by 5-10 seconds but if you are using free Docker Hub account then you only get one free image. That's why I prefer to use "gha" as cache back-end. Kamal only [supports](https://kamal-deploy.org/docs/configuration/builders/#using-multistage-builder-cache){:target="_blank"} "gha" and "registry". If you would like to use the "registry" cache, use the following builder config:
 ```yaml
 builder:
   multiarch: false
@@ -103,9 +103,9 @@ CMD ["node", "server.js"]
 
 We have a tiny express server that serves the static files with appropriate headers. We have configured Cloudflare to provide SSL support and cache the static assets. Only `index.html` file is not cached, and bundled assets will be served by this Express server only once. Then Cloudflare will take the load. All of this is deployed on our $4 DigitalOcean droplet and it is handling our moderately busy app very well.
 
-I have [configured](https://webpack.js.org/guides/caching/) the Webpack to generate bulid with hash, so with every new build, the new hash will rename the file - same as [Propshaft](https://github.com/rails/propshaft/).
+I have [configured](https://webpack.js.org/guides/caching/){:target="_blank"} the Webpack to generate bulid with hash, so with every new build, the new hash will rename the file - same as [Propshaft](https://github.com/rails/propshaft/){:target="_blank"}.
 
-I have added a route for Kamal healthcheck as well even though the health-check step has been [removed](https://github.com/basecamp/kamal/pull/740) in Kamal 1.6.0.
+I have added a route for Kamal healthcheck as well even though the health-check step has been [removed](https://github.com/basecamp/kamal/pull/740){:target="_blank"} in Kamal 1.6.0.
 
 ```javascript
 // server.js

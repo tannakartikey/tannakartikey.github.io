@@ -2,7 +2,7 @@
 layout: post
 title: Deploy Rails app and Postgres with Kamal(previously MRSK) on single DigitalOcean server
 image: "/assets/deploy-with-mrsk.png"
-tags: mrsk rails postgresql
+tags: mrsk kamal rails postgresql
 date: 2023-04-05 18:38 +0530
 ---
 For me, it's been always cumbersome to host a Rails side project or personal application. Sure, Heroku is straightforward but it's not as cheap as I would like it to be. And I don't like the uptime limitation their free plan has. I have been making my way through Dokku and Capistrano. Luckily, a new door opened when [Kamal][1] was launched by DHH recently.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to deploy a NodeJS application using Kamal (previously MRSK)
-tags: mrsk
+tags: mrsk kamal nodejs
 date: 2023-04-10 13:55 +0530
 ---
 [Kamal](https://kamal-deploy.org/) is created by DHH - founder of Rails, but the tool is not limited to deploy only Rails applications. Kamal is a simple tool that automates some Docker related commands. That is why it can support any platform/language. In this post, let's see how to deploy a NodeJS application on a small DigitalOcean VPS using Kamal.

@@ -2,7 +2,7 @@
 layout: post
 title: How to deploy multi-environment(staging, production) application using Kamal(previously MRSK)
 image: "/assets/how-to-deploy-multi-environment-staging-production-application-using-mrsk.png"
-tags: mrsk rails postgresql
+tags: mrsk kamal rails postgresql
 date: 2023-04-09 14:15 +0530
 ---
 In the [previous post](https://www.kartikey.dev/2023/04/05/how-to-deploy-rails-app-and-postgres-with-mrsk-on-single-server.html){:target="_blank"}, I described how to host a Rails app and a database on a single server. This post will describe what if you want to host multiple environments i.e. staging, production of the same application using [Kamal](https://kamal-deploy.org/){:target="_blank"}.

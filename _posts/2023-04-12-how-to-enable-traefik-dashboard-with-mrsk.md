@@ -2,7 +2,7 @@
 layout: post
 title: How to enable Traefik dashboard with Kamal (previously MRSK)
 image: assets/traefik-dashboard.png
-tags: mrsk
+tags: mrsk kamal
 date: 2023-04-12 18:40 +0530
 ---
 [ Kamal ](https://kamal-deploy.org/){:target="_blank"} uses Traefik as a dynamic reverse-proxy. Traefik has a beautiful [ dashboard ](https://doc.traefik.io/traefik/operations/dashboard/){:target="_blank"} to visually display the configuration. Kamal is not configured to show the dashboard by default. 

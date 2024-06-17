@@ -184,7 +184,7 @@ name: Deploy to production
 
 # To make sure that only one deploy runs at a time. Deploy lock will not let simultaneous deployments.
 concurrency:
-  group: ${{ github.workflow }}
+  group: ${%raw%}{{ github.workflow }}{%endraw%}
 
 on:
   push:

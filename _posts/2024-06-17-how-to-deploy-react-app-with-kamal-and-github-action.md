@@ -4,7 +4,8 @@ title: How to deploy a React app with Kamal (formerly known as MRSK) & GitHub Ac
 date: 2024-06-17 10:28 +0530
 tags: react kamal mrsk github
 ---
-I recently helped Sidecar Learning move their legacy application built with React front-end and Rails back-end migrate from Heroku and AWS to VPS over at DigitalOcean.
+
+I recently helped [Sidecar Learning](https://sidecarlearning.com) move their legacy application built with React front-end and Rails back-end migrate from Heroku and AWS to VPS over at DigitalOcean.
 
 This guide is outcome of that migration. React front-end was quite simple and do not have much moving parts so it's quite simple to do this. If you are looking to deploy monolith application then you can read the following posts I have written:
 

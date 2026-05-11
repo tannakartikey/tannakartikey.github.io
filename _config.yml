@@ -44,7 +44,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/me.jpg?v=2
+      image: /assets/me.jpg?v=3
 
 social:
   links:

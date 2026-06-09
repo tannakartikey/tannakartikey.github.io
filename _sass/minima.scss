@@ -1,45 +1,34 @@
 @charset "utf-8";
 
-// Define defaults for each variable.
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;650;700;750&family=Literata:opsz,wght@7..72,400;7..72,520;7..72,650&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
-$base-font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$base-font-size:   16px !default;
+$base-font-family: "Literata", "Liberation Serif", "DejaVu Serif", Georgia, serif !default;
+$heading-font-family: "Inter", Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !default;
+$base-font-size: 22.5px !default;
 $base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
+$small-font-size: 0.82rem !default;
+$base-line-height: 1.84 !default;
 
-$spacing-unit:     30px !default;
+$spacing-unit: 30px !default;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$text-color: #f1eadf !default;
+$background-color: #0b0b0a !default;
+$brand-color: #8ed6b2 !default;
 
-$grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
-$orange-color:     #f66a0a !default;
+$grey-color: #c8bdae !default;
+$grey-color-light: #34302a !default;
+$grey-color-dark: #fffaf1 !default;
+$orange-color: #f6a05d !default;
 $table-text-align: left !default;
 
-// Width of the content area
-$content-width:    800px !default;
+$content-width: 820px !default;
 
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-palm: 720px !default;
+$on-laptop: 820px !default;
 
-$on-medium:        $on-palm !default;
-$on-large:         $on-laptop !default;
+$on-medium: $on-palm !default;
+$on-large: $on-laptop !default;
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
-// Notice the following mixin uses max-width, in a deprecated, desktop-first
-// approach, whereas media queries used elsewhere now use min-width.
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
@@ -50,21 +39,642 @@ $on-large:         $on-laptop !default;
   font-size: $base-font-size * $ratio;
 }
 
-// Import partials.
 @import
   "minima/base",
   "minima/layout",
   "minima/syntax-highlighting"
 ;
 
-.post-tags {
-  display: inline-block;
-  float: right;
+:root {
+  color-scheme: dark;
+  --bg: #0b0b0a;
+  --paper: #151412;
+  --paper-2: #191713;
+  --text: #f1eadf;
+  --muted: #c8bdae;
+  --heading: #fffaf1;
+  --line: #34302a;
+  --accent: #8ed6b2;
+  --accent-soft: rgba(142, 214, 178, 0.14);
+  --code-bg: #100f0d;
+}
 
-  .post-tag {
-    color: white;
-    background: grey;
-    padding: 2px;
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--bg);
+}
+
+body {
+  letter-spacing: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-title,
+.site-nav,
+.post-meta,
+.rss-subscribe {
+  font-family: $heading-font-family;
+  letter-spacing: 0;
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 3px;
+
+  &:visited {
+    color: var(--accent);
+  }
+
+  &:hover {
+    color: var(--heading);
   }
 }
 
+strong {
+  color: #fff;
+}
+
+.site-header {
+  min-height: 0;
+  padding: 28px 24px 0;
+  border: 0;
+  background: var(--bg);
+  line-height: normal;
+}
+
+.site-header .wrapper,
+.site-footer .wrapper {
+  width: 100%;
+  max-width: $content-width;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.site-title {
+  margin-bottom: 0;
+  color: var(--heading);
+  font-size: 0.86rem;
+  font-weight: 650;
+  letter-spacing: 0;
+  line-height: 1.3;
+
+  &,
+  &:visited {
+    color: var(--heading);
+  }
+
+  &:hover {
+    color: var(--accent);
+    text-decoration: none;
+  }
+}
+
+.site-nav {
+  top: 18px;
+  right: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 650;
+  line-height: 1.4;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.24);
+
+  .menu-icon > svg path {
+    fill: var(--muted);
+  }
+
+  .page-link {
+    color: var(--muted);
+    line-height: 1.4;
+
+    &:hover {
+      color: var(--heading);
+      text-decoration: none;
+    }
+  }
+
+  @media screen and (min-width: $on-medium) {
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+
+    .page-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 32px;
+    }
+  }
+}
+
+.page-content {
+  flex: 1 0 auto;
+  padding: 34px 24px 88px;
+}
+
+.page-content > .wrapper {
+  width: 100%;
+  max-width: $content-width;
+  padding: clamp(37px, 5.5vw, 79px);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: linear-gradient(180deg, var(--paper) 0%, var(--paper-2) 100%);
+  box-shadow: 0 22px 60px rgba(0, 0, 0, 0.36);
+}
+
+.page-heading,
+.home > div > h1,
+.post-title,
+.post-content h1 {
+  max-width: 13.5em;
+  margin: 0 auto 18px;
+  color: var(--heading);
+  font-family: $heading-font-family;
+  font-size: clamp(2.3rem, 5.3vw, 3.58rem);
+  font-weight: 750;
+  line-height: 1.1;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.page-heading,
+.home > div > h1 {
+  margin-bottom: 42px;
+}
+
+.post-header {
+  margin-bottom: 46px;
+  text-align: center;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    max-width: 540px;
+    margin: 32px auto 0;
+    border-top: 1px solid var(--line);
+  }
+}
+
+.post-meta {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.62;
+}
+
+.post-tags {
+  display: block;
+  float: none;
+  margin-top: 12px;
+
+  a {
+    text-decoration: none;
+  }
+
+  .post-tag {
+    display: inline-flex;
+    align-items: center;
+    margin: 4px 3px 0;
+    padding: 3px 8px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-size: 0.66rem;
+    font-weight: 650;
+    line-height: 1.35;
+  }
+}
+
+.post-content,
+.home,
+.post-list,
+.rss-subscribe {
+  color: var(--text);
+}
+
+.home p {
+  margin: 0 0 1.25em;
+}
+
+.home h2,
+.home h3,
+.home h4 {
+  color: var(--heading);
+  font-family: $heading-font-family;
+  font-weight: 700;
+  line-height: 1.32;
+}
+
+.home .row {
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.home .column {
+  min-width: 0;
+}
+
+.post-content p,
+.post-content ul,
+.post-content ol,
+.post-content dl,
+.post-content blockquote,
+.post-content figure,
+.post-content pre,
+.post-content table,
+.home > p {
+  margin: 0 0 1.25em;
+}
+
+.post-content h2 {
+  margin: 2.5em 0 0.9em;
+  color: var(--heading);
+  font-family: $heading-font-family;
+  font-size: 1.47rem;
+  font-weight: 700;
+  line-height: 1.32;
+  letter-spacing: 0;
+}
+
+.post-content h3 {
+  margin: 2.1em 0 0.75em;
+  color: var(--heading);
+  font-family: $heading-font-family;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  margin: 1.8em 0 0.7em;
+  color: var(--heading);
+  font-family: $heading-font-family;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.post-content ul,
+.post-content ol {
+  margin-left: 1.35em;
+}
+
+.post-content li {
+  margin-bottom: 0.42em;
+}
+
+hr {
+  width: 100%;
+  max-width: 540px;
+  margin: 32px auto 46px;
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+
+blockquote {
+  border-left: 4px solid var(--line);
+  color: var(--muted);
+  font-style: italic;
+  letter-spacing: 0;
+}
+
+pre,
+code {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--code-bg);
+  color: var(--text);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+code {
+  padding: 0.08em 0.32em;
+  font-size: 0.78em;
+}
+
+pre {
+  padding: 1em;
+  overflow-x: auto;
+  font-size: 0.74em;
+  line-height: 1.55;
+
+  > code {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    font-size: 1em;
+  }
+}
+
+.highlight,
+.highlighter-rouge .highlight {
+  background: var(--code-bg);
+}
+
+.highlight {
+  color: var(--text);
+
+  .c,
+  .cm,
+  .c1,
+  .cs {
+    color: #938878;
+  }
+
+  .k,
+  .kc,
+  .kd,
+  .kp,
+  .kr,
+  .o,
+  .ow {
+    color: #f6d58b;
+    font-weight: 700;
+  }
+
+  .s,
+  .sb,
+  .sc,
+  .sd,
+  .s1,
+  .s2,
+  .se,
+  .sh,
+  .si,
+  .sx,
+  .ss {
+    color: #b6e3c6;
+  }
+
+  .m,
+  .mf,
+  .mh,
+  .mi,
+  .mo,
+  .il {
+    color: #9ed6ff;
+  }
+
+  .na,
+  .nb,
+  .nc,
+  .nf,
+  .nt,
+  .nv,
+  .no,
+  .vc,
+  .vg,
+  .vi {
+    color: #8ed6b2;
+  }
+
+  .err,
+  .gr,
+  .gt {
+    color: #ffb4a8;
+    background: rgba(255, 180, 168, 0.12);
+  }
+
+  .gd {
+    color: #ffb4a8;
+    background: rgba(255, 180, 168, 0.1);
+  }
+
+  .gi {
+    color: #b6e3c6;
+    background: rgba(142, 214, 178, 0.1);
+  }
+
+  .go,
+  .gp,
+  .gu,
+  .gh {
+    color: var(--muted);
+  }
+}
+
+table {
+  color: var(--text);
+  border-color: var(--line);
+
+  tr:nth-child(even) {
+    background-color: rgba(255, 250, 241, 0.03);
+  }
+
+  th,
+  td {
+    border-color: var(--line);
+  }
+
+  th {
+    background: rgba(255, 250, 241, 0.05);
+    color: var(--heading);
+  }
+}
+
+.post-content img,
+.home img {
+  display: block;
+  height: auto;
+  margin: 0.4em auto 1.35em;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+}
+
+.post-list > li {
+  margin-bottom: 1.45em;
+  padding-bottom: 1.45em;
+  border-bottom: 1px solid var(--line);
+
+  &:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+}
+
+.post-list h3 {
+  margin: 0.18em 0 0.45em;
+  font-family: $heading-font-family;
+  line-height: 1.24;
+}
+
+.post-link {
+  color: var(--heading);
+  font-size: 1.32rem;
+  font-weight: 700;
+  line-height: 1.24;
+
+  &:visited {
+    color: var(--heading);
+  }
+
+  &:hover {
+    color: var(--accent);
+    text-decoration: none;
+  }
+}
+
+.post-list p {
+  margin: 0.45em 0 0;
+  color: var(--muted);
+  font-size: 0.94em;
+  line-height: 1.66;
+}
+
+.rss-subscribe {
+  margin: 2.2em 0 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.site-footer {
+  padding: 0 24px 44px;
+  border: 0;
+  background: var(--bg);
+}
+
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 0;
+
+  li {
+    float: none;
+    margin: 0;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      padding: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--muted);
+      background: var(--paper);
+
+      &:hover {
+        color: var(--accent);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.svg-icon {
+  width: 18px;
+  height: 18px;
+  padding: 0;
+}
+
+@media screen and (max-width: $on-palm) {
+  body {
+    font-size: 20.5px;
+    line-height: 1.78;
+  }
+
+  .site-header {
+    padding: 18px 21px 0;
+  }
+
+  .site-title {
+    max-width: calc(100% - 58px);
+    padding-right: 0;
+    font-size: 0.82rem;
+  }
+
+  .site-nav {
+    top: 13px;
+    right: 21px;
+
+    input:checked ~ .trigger {
+      padding: 38px 0 8px;
+    }
+
+    .page-link {
+      margin-left: 0;
+      padding: 7px 12px;
+    }
+  }
+
+  .page-content {
+    padding: 18px 0 0;
+  }
+
+  .page-content > .wrapper {
+    max-width: none;
+    min-height: calc(100vh - 98px);
+    padding: 37px 21px 74px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .page-heading,
+  .home > div > h1,
+  .post-title,
+  .post-content h1 {
+    font-size: clamp(2.05rem, 11vw, 2.75rem);
+  }
+
+  .post-header {
+    margin-bottom: 40px;
+  }
+
+  .post-content h2 {
+    margin-top: 2.15em;
+  }
+
+  .home .row {
+    display: block !important;
+    margin-bottom: 0 !important;
+  }
+
+  .home .column {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .home .column + .column {
+    margin-top: 26px;
+  }
+
+  .home .column img {
+    width: min(100%, 280px);
+  }
+
+  .site-footer {
+    padding: 24px 21px 38px;
+  }
+}

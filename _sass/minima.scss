@@ -564,6 +564,7 @@ table {
 
 .social-media-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
   margin: 0;
@@ -590,6 +591,13 @@ table {
       }
     }
   }
+}
+
+.social-media-list .ekard-link {
+  font-family: $heading-font-family;
+  font-size: 0.68rem;
+  font-weight: 750;
+  letter-spacing: 0;
 }
 
 .svg-icon {

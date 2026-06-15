@@ -3,3 +3,59 @@
 ---
 
 @import "minima";
+
+/* ===== custom: post images, captions & full-size lightbox ===== */
+.post-content {
+  img {
+    display: block;
+    margin: 1.8em auto 0;
+    border-radius: 8px;
+    cursor: zoom-in;
+  }
+  // small, centered, muted caption (the *italic* line tagged {: .img-caption})
+  .img-caption {
+    margin: 0.6em auto 2.4em;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: var(--muted);
+  }
+}
+
+// full-size image preview overlay
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 4vmin;
+  background: rgba(8, 8, 7, 0.93);
+  cursor: zoom-out;
+  opacity: 0;
+  transition: opacity 0.18s ease;
+
+  &.open { display: flex; opacity: 1; }
+
+  img {
+    max-width: 96vw;
+    max-height: 92vh;
+    border-radius: 8px;
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.6);
+  }
+
+  &__close {
+    position: fixed;
+    top: 2.4vmin;
+    right: 3.4vmin;
+    font-size: 2.2rem;
+    line-height: 1;
+    color: #f1eadf;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    opacity: 0.75;
+    &:hover { opacity: 1; }
+  }
+}

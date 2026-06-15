@@ -1,0 +1,35 @@
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox__close" type="button" aria-label="Close image preview">&times;</button>
+  <img src="" alt="">
+</div>
+<script>
+  (function () {
+    var box = document.getElementById('lightbox');
+    var content = document.querySelector('.post-content');
+    if (!box || !content) return;
+    var big = box.querySelector('img');
+
+    function open(src, alt) {
+      big.src = src;
+      big.alt = alt || '';
+      box.classList.add('open');
+      box.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+    function close() {
+      box.classList.remove('open');
+      box.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+      big.removeAttribute('src');
+    }
+
+    content.addEventListener('click', function (e) {
+      var img = e.target.closest('img');
+      if (img && content.contains(img)) open(img.currentSrc || img.src, img.alt);
+    });
+    box.addEventListener('click', close);
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && box.classList.contains('open')) close();
+    });
+  })();
+</script>

@@ -4,8 +4,10 @@ title: "Removing the CTO as the Bottleneck: Building an AI-Native Operating Laye
 date: 2026-06-15
 tags: ai engineering leadership
 description: "A practical note on what changes when AI meets people where they already work: context, tools, memory, review, and artifacts."
-image: /assets/removing-the-cto-as-the-bottleneck/stats-hero.png
+image: /assets/removing-the-cto-as-the-bottleneck/cover.jpg
 ---
+
+![A dam at maximum release, water pouring through every spillway gate into a braided network of channels below.](/assets/removing-the-cto-as-the-bottleneck/cover.jpg)
 
 In a small company, the CTO often becomes the point where business
 intent gets translated into technical reality.
@@ -55,6 +57,7 @@ the real work.
 ![Aggregate Hero Hero usage stats: asks answered, conversations, team size, non-engineering usage, autonomous work hours, longer jobs, pull requests, image and voice note usage, and words written back.](/assets/removing-the-cto-as-the-bottleneck/stats-hero.webp)
 
 *A four-person team, one internal AI agent, and three months of real usage.*
+{: .img-caption}
 
 ## AI-Native Is An Operating Model
 
@@ -113,14 +116,17 @@ plan, generated asset, or pull request.
 ![Slack exchange where a teammate asks Hero Hero how many customers used the product in the last 30 days, and Hero Hero answers with the count and a clarifying follow-up.](/assets/removing-the-cto-as-the-bottleneck/card-customers.webp)
 
 *A teammate asks a business question in plain English, and Hero Hero fetches the answer.*
+{: .img-caption}
 
 ![Slack exchange where a teammate asks Hero Hero if it is a dog, and Hero Hero replies that it is an AI agent for the team: no paws, no tail, just text.](/assets/removing-the-cto-as-the-bottleneck/card-dog.webp)
 
 *Not every useful AI interaction has to look formal.*
+{: .img-caption}
 
 ![Slack exchange where a teammate asks Hero Hero for a Hero Group slogan. Hero Hero gives several slogan options and recommends Tools that help shops win as the strongest brand line.](/assets/removing-the-cto-as-the-bottleneck/card-slogan.webp)
 
 *Hero Hero is useful for creative work too, not only technical or analytical work.*
+{: .img-caption}
 
 The important shift is not that AI answers questions. The important
 shift is that AI moves intent closer to the systems and artifacts where
@@ -176,6 +182,7 @@ enough for humans to trust the result.
 ![Slack exchange where a teammate asks Hero Hero to merge a pull request. Hero Hero reports that it merged and deployed the pull request, resolved merge conflicts, and started production deployment.](/assets/removing-the-cto-as-the-bottleneck/card-ship.webp)
 
 *From review to merge to deployment, internal AI can move work across real engineering steps.*
+{: .img-caption}
 
 Model routing is part of the same layer. Hero Hero knows that different
 models have different strengths and weaknesses. Some are better at
@@ -189,6 +196,7 @@ for a human.
 ![Quote from a stand-up where Shane Bralove says Hero Hero knows more about the company than Replit does, so he cut Replit out of his process.](/assets/removing-the-cto-as-the-bottleneck/quote-replit.webp)
 
 *Company context can matter more than a standalone AI tool.*
+{: .img-caption}
 
 Memory and scheduling matter too. Some work is not a one-shot answer.
 The agent needs to remember durable context, follow up at the right
@@ -211,10 +219,12 @@ important about where the interface is working.
 ![Slack message from Shane Bralove saying Hero Hero has been the biggest game changer for him in operations. He used to have a 65-person team trained to read a ticket, look up the customer in the system, troubleshoot the issue, and write a response. Hero Hero now does all of this in minutes, and he works in the language of the customer without converting to database terms.](/assets/removing-the-cto-as-the-bottleneck/card-ops.webp)
 
 *The work a 65-person ops team was trained to do — read the ticket, look up the customer, troubleshoot, respond — now happens in natural language, in minutes.*
+{: .img-caption}
 
 ![Quote from a stand-up: Why scroll when Hero Hero will just pull what I need for me?](/assets/removing-the-cto-as-the-bottleneck/quote-scroll.webp)
 
 *The behavior change is simple: people stop searching manually and ask the internal agent.*
+{: .img-caption}
 
 Our COO, who has never been a frontend engineer, is now actively driving
 product UI and UX decisions. He talks to users, collects feedback, works
@@ -227,10 +237,12 @@ independence that would have been hard to create with traditional tools.
 ![Quote from a stand-up where Shane Bralove thanks Hero Hero and says it did a good job designing the emails.](/assets/removing-the-cto-as-the-bottleneck/quote-thanks.webp)
 
 *When the agent is in the workflow, people start treating it like a teammate.*
+{: .img-caption}
 
 ![Quote from a stand-up where Shane Bralove compares separate brand, product, and email design teams at Uber with Hero Hero acting as one consistent source.](/assets/removing-the-cto-as-the-bottleneck/quote-uber.webp)
 
 *One internal agent can create consistency across product, brand, and communication work.*
+{: .img-caption}
 
 This is the part that is easy to underestimate from the outside. The
 value is not only that work gets done faster. The value is that people
@@ -245,6 +257,7 @@ every next step.
 ![Quote card. Shane Bralove&#39;s phrase, relayed in a Hero Group stand-up: Hero Hero is becoming the central nervous system of our operation.](/assets/removing-the-cto-as-the-bottleneck/quote-nervous-system.webp)
 
 *Once the agent sits close to enough of the company's work, the team stops calling it a tool and starts calling it core infrastructure.*
+{: .img-caption}
 
 ## Conversations Become Company Memory
 
@@ -280,6 +293,7 @@ already happened.
 ![Quote from a leadership meeting where Morgan Felchner says an AI bot replied on behalf of Kartikey, making it feel like the team was living in the future.](/assets/removing-the-cto-as-the-bottleneck/quote-future.webp)
 
 *The team noticed the system feeling like a different operating mode, not just another tool.*
+{: .img-caption}
 
 ## The Challenges Are Real
 

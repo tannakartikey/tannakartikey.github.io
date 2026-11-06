@@ -16,9 +16,17 @@ We make each new website as a sample first, so the owner can see it on their own
 
 People look up a local business on their phones: are they open, what's on today, how do we get there? So we design each site for the phone first, and then for computers.
 
-**Sweta** designs your site and writes its words. She's the one you'll usually talk to.
+**Sweta** designs your site and writes its words. She or Kartikey will be on your call.
 
 **Kartikey** builds your site, puts it live on your web address, and keeps it fast and secure. He has built software for more than ten years, for startups and small companies, many of them in the US. [More about Kartikey](/about/).
+
+### Why us
+
+- **We've done this for a long time.** Kartikey has built software for more than ten years, for startups and small companies in the US, and has run the technology side of a company as its CTO. Sweta designs each site and writes every word on it.
+- **We know what a shop's website has to do on a phone.** People look you up on the way, in a parking lot, on a slow signal: are you open, what's on today, how do we get there. Most local business websites were built before phones were how people found places. We design the phone version first, on its own.
+- **You judge the work, not a pitch.** A website is hard to imagine and easy to judge, so we make yours first, and you open it on your own phone.
+- **AI makes us fast. Experience makes it right.** Anyone can have a chatbot write a website now. Knowing what belongs on the page, what to leave off, and what breaks on a real phone takes years. Every page goes through our own checks before you see it.
+- **It's yours.** One payment, and you own the design, the words and the pictures.
 
 ### How our samples work
 
@@ -34,11 +42,9 @@ If we made one for you, it's at the link we sent you. If it's not for you, [ask 
 ### If you say yes
 
 - You pay once, by card through Stripe. If for any reason we can't put it live, you get a full refund.
-- We switch your web address over on a short call, with you or whoever looks after it.
-- Your new site is live within 48 hours of that call.
+- We switch your web address over with you or whoever looks after it, on a short call or by email.
+- Your new site is live within 48 hours of your yes: it's already built.
 - Once you've paid, it's yours: the design, the words and the pictures, with the files whenever you ask.
-
-We never ask for passwords by email. And we never ask to be paid by wire transfer, gift card or crypto.
 
 ### Get in touch
 

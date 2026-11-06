@@ -1,0 +1,28 @@
+# Kartikey Tanna
+
+> Kartikey Tanna is a software engineer who has built software for more than ten years, for startups and small companies, many of them in the US, and is CTO of Hero Group LLC. With his wife Sweta, he makes websites for local businesses, as Sweta and Kartikey.
+
+## Websites for local businesses
+
+- [Websites for local businesses](https://www.kartikey.dev/websites/): what Sweta and Kartikey make, how their samples work, and what happens if you say yes. Each new website is made first as a working sample the owner opens on their own phone, and there's nothing to pay to look.
+- [Sweta and Kartikey](https://proposals.kartikey.dev/): the studio's own site, with its facts in plain text at https://proposals.kartikey.dev/llms.txt
+- [Send us your website](https://proposals.kartikey.dev/start): they make a new version of it for you to try
+
+## About
+
+- [About Kartikey](https://www.kartikey.dev/about/): his work, mostly in Ruby on Rails: Sidecar Learning (lead backend developer from 2018, CTO from 2020 to 2024), Reword, the e-commerce platform for a high-end keyboard brand, UltraAuth, Hero Group LLC (CTO), and eKard
+- [FAQ](https://www.kartikey.dev/faq/)
+
+## Writing
+
+- [AI Agents Need Real Access: Give Yours a Server of Its Own](https://www.kartikey.dev/2026/06/27/give-your-credentials-to-ai.html) (27 Jun 2026)
+- [Your CTO Got 10x Faster. Did Your Company?](https://www.kartikey.dev/2026/06/15/your-cto-got-10x-faster.html) (15 Jun 2026)
+- [Removing the CTO as the Bottleneck: Building an AI-Native Operating Layer Inside Hero Group](https://www.kartikey.dev/2026/06/15/removing-the-cto-as-the-bottleneck.html) (15 Jun 2026)
+- [How to deploy a React app with Kamal (formerly known as MRSK) & GitHub Action](https://www.kartikey.dev/2024/06/17/how-to-deploy-react-app-with-kamal-and-github-action.html) (17 Jun 2024)
+- [Understanding the role of the "schema.rb" file in Ruby on Rails development](https://www.kartikey.dev/2023/08/06/understanding-the-role-of-the-schema-rb-file-in-ruby-on-rails-development.html) (6 Aug 2023)
+- [All posts](https://www.kartikey.dev/blog/)
+
+## Contact
+
+- Websites for local businesses: hi@kartikey.dev
+- Kartikey on LinkedIn: https://www.linkedin.com/in/tannakartikey

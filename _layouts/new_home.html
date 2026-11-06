@@ -9,6 +9,12 @@ layout: default
     {% endif %}
 
 
+    {%- if content != "" -%}
+    <div class="home-intro">
+      {{ content }}
+    </div>
+    {%- endif -%}
+
     <div>
     {%- if posts.size > 0 -%}
    	<h1>Posts</h1>

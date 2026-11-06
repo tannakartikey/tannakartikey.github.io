@@ -13,14 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Kartikey's Blog
-tagline: Kartikey's blog on programming and freelancing!
+title: Kartikey Tanna
+tagline: Software engineer. With Sweta, I make websites for local businesses.
 email: tannakartikey@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A blog by Kartikey Tanna on programming and freelancing.
-  I am a programmer and an avid meditator.
-  Enjoy cooking and eating vegetarian food.
-  Hate traveling but would go to the end of the world for a good pizza! I have two years of experience in being a good husband! 😃
+  Kartikey Tanna is a software engineer. He has built software for more than
+  ten years, for startups and small companies, many of them in the US.
+  With his wife Sweta, he makes websites for local businesses.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.kartikey.dev" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -53,8 +52,6 @@ social:
     - https://www.linkedin.com/in/tannakartikey/
     - https://www.facebook.com/tanna.kartikeya/
 
-google_analytics: UA-162859155-1
-
 disqus:
   shortname: https-www-kartikey-dev
 
@@ -67,9 +64,10 @@ plugins:
   - jekyll-last-modified-at
 
 header_pages:
-  - faq.md
+  - websites.md
   - blog.md
   - about.md
+  - faq.md
 
 last-modified-at:
   date-format: '%b %d, %Y'

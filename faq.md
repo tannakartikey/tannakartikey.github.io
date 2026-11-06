@@ -3,17 +3,19 @@ layout: page
 title: "FAQs"
 permalink: /faq/
 ---
+These answers are about my freelance software work. For the websites Sweta and I make for local businesses, see [Websites for local businesses](/websites/).
+
 **What is your educational qualification?**  
 I have done BE IT and MBA Entrepreneurship.
 
 **Which part of India do you belong to?**  
-I am from Vadodara, Gujara  
+I am from Vadodara, Gujarat.  
 
 **Why IT?**  
 Since childhood, I loved technology, so much that I volunteered to manage my university network along with studying. I realised that turning my passion into my profession would be the best thing to do.  
 
 **Have you ever worked in an IT company?**  
-I worked in an IT company in Hyderabad named Payism Technologies Pvt Ltd. Heck, I had my own IT company for a year where people worked for me!  
+I worked in an IT company in Hyderabad named Payism Technologies Pvt Ltd. I also ran my own IT company for a year, with a small team.  
 
 **Did you join any course to learn Ruby on Rails?**  
 No. I have learned it by reading books, codes, articles, documentation, and a lot of experimentation.
@@ -27,7 +29,7 @@ I try to keep one client at a time, two at most.
 **What do your clients like the most about you?**  
 My friendly nature and a sense of ownership I work with.
 
-**Have you had “unhappy clients”?!! If yes, then how did you deal with them?**  
+**Have you had unhappy clients? If yes, how did you deal with them?**  
 Very few. I found better clients for myself!
 
 **What is the method of communication you use with your clients?**  
@@ -41,7 +43,7 @@ night owl. Most of my clients are in the CST timezone and I have been able to wo
 without compromising my or their personal life and health.
 
 **How do you get clients?**  
-I am often referred by previous clients. I also get work from [LinkedIn](https://www.linkedin.com/in/tannakartikey/), [Upwork](https://www.upwork.com/freelancers/~01393c9ea8f23bfff3), and even [Twitter](https://twitter.com/@tannakartikey)
+I am often referred by previous clients. I also get work from [LinkedIn](https://www.linkedin.com/in/tannakartikey/), [Upwork](https://www.upwork.com/freelancers/~01393c9ea8f23bfff3), and even [Twitter](https://twitter.com/tannakartikey).
 
 **What do you do when you are between projects?**  
 It is the best time to pay full attention and learn something. You can also contribute to open-source, improve your profile, and work on personal projects. I prefer to do all of them.

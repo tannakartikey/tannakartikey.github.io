@@ -15,7 +15,7 @@ Some of that work:
 - **Reword**, an AI startup for writers. As lead Rails engineer I worked directly with the founder, and helped it become profitable within 18 months.
 - **A high-end keyboard brand** founded by Ryan Norbauer. I led the build of its e-commerce platform, from scratch, in Rails.
 - **UltraAuth**, biometric login without passwords. I wrote a Ruby gem that was included in GitLab CE and passed 500,000 downloads. The company was later acquired.
-- **Hero Group**, where I have been building Hero Hero, an internal AI agent that works inside the team's Slack and Basecamp. I wrote about it in [Removing the CTO as the Bottleneck](/2026/06/15/removing-the-cto-as-the-bottleneck.html) and [Your CTO Got 10x Faster](/2026/06/15/your-cto-got-10x-faster.html).
+- **Hero Group LLC**, where I am CTO. I have been building Hero Hero, an internal AI agent that works inside the team's Slack and Basecamp. I wrote about it in [Removing the CTO as the Bottleneck](/2026/06/15/removing-the-cto-as-the-bottleneck.html) and [Your CTO Got 10x Faster](/2026/06/15/your-cto-got-10x-faster.html).
 
 I also made [eKard](https://ekard.app/){:target="_blank" rel="noopener"}, digital business cards for small businesses and professionals.
 

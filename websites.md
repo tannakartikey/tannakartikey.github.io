@@ -22,14 +22,11 @@ People look up a local business on their phones: are they open, what's on today,
 
 ### What a slow or confusing website costs a shop
 
-Nobody writes to say they gave up on your website. They just go to the next place.
+- 1/20 of a second: how fast people judge your website's look, before they read a word.
+- 32% more likely to leave when your phone page takes 3 seconds, not 1.
+- 73% say they're unlikely to come back if you're listed open online but closed.
 
-- From one second to three, the chance a visitor leaves a phone page rises 32%.
-- 76% of people who search nearby on their phone visit a related business within a day.
-- 73% say they're unlikely to go back to a business listed as open online that turned out to be closed.
-- When Google shows an AI summary, people click through to a website on 8% of visits, against 15% without one.
-
-[The research, and what we do about each](https://proposals.kartikey.dev/losing-customers)
+[Six numbers, and what we do about them](https://proposals.kartikey.dev/losing-customers)
 
 ### How our samples work
 

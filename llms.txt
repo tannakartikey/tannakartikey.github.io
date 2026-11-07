@@ -4,7 +4,7 @@
 
 ## Websites for local businesses
 
-- [Websites for local businesses](https://www.kartikey.dev/websites/): what Sweta and Kartikey make, how their samples work, and what happens if you say yes. Each new website is made first as a working sample the owner opens on their own phone, and there's nothing to pay to look.
+- [Websites for local businesses](https://www.kartikey.dev/websites/): what Sweta and Kartikey make, how their samples work, and what happens if you say yes. Each new website is made first as a working sample the owner can see working before deciding anything, and there's nothing to pay to look.
 - [Sweta and Kartikey](https://proposals.kartikey.dev/): the studio's own site, with its facts in plain text at https://proposals.kartikey.dev/llms.txt
 - [Send us your website](https://proposals.kartikey.dev/start): they make a new version of it for you to try
 

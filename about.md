@@ -23,7 +23,7 @@ I also made [eKard](https://ekard.app/){:target="_blank" rel="noopener"}, digita
 
 My wife Sweta and I make websites for local businesses, as [Sweta and Kartikey](https://proposals.kartikey.dev/). Sweta designs each site and writes its words. I build it, put it live, and keep it fast and secure.
 
-We make each new website as a sample first, so the owner can see it on their own phone before deciding anything. There's nothing to pay to look. [How it works](/websites/), or [send us your website](https://proposals.kartikey.dev/start).
+We make each new website as a working sample first, so the owner can see it working before deciding anything. There's nothing to pay to look. [How it works](/websites/), or [send us your website](https://proposals.kartikey.dev/start).
 
 ### Outside work
 

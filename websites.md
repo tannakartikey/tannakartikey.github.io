@@ -3,12 +3,12 @@ layout: page
 title: "Websites for local businesses"
 nav_title: "Websites for businesses"
 permalink: /websites/
-description: "Sweta and Kartikey make websites for local businesses. We build each new website as a working sample first, so the owner can see it on their own phone. There's nothing to pay to look."
+description: "Sweta and Kartikey make websites for local businesses. We build each new website as a working sample first, so the owner can see it working before deciding anything. There's nothing to pay to look."
 ---
 
 We're Sweta and Kartikey, husband and wife, working from India. We want the internet to look good. Right now, that means making websites for local businesses.
 
-We make each new website as a sample first, so the owner can see it on their own phone before deciding anything.
+We make each new website as a working sample first, so the owner can see it working before deciding anything.
 
 [Send us your website](https://proposals.kartikey.dev/start) · [Book a call](https://calendar.app.google/Gm7ggHAEya3kAeWWA) · [Email us](mailto:hi@kartikey.dev)
 
@@ -24,10 +24,10 @@ People look up a local business on their phones: are they open, what's on today,
 
 Nobody writes to say they gave up on your website. They just go to the next place.
 
-- From one second to three, the chance a visitor leaves a phone page rises 32% (Google, 2017).
-- 76% of people who search nearby on their phone visit a related business within a day (Google, 2016).
-- 73% say they're unlikely to go back to a business listed as open online that turned out to be closed (Yext survey, 2022).
-- When Google shows an AI summary, people click through to a website on 8% of visits, against 15% without one (Pew Research Center, 2025).
+- From one second to three, the chance a visitor leaves a phone page rises 32%.
+- 76% of people who search nearby on their phone visit a related business within a day.
+- 73% say they're unlikely to go back to a business listed as open online that turned out to be closed.
+- When Google shows an AI summary, people click through to a website on 8% of visits, against 15% without one.
 
 [The research, and what we do about each](https://proposals.kartikey.dev/losing-customers)
 
@@ -35,7 +35,7 @@ Nobody writes to say they gave up on your website. They just go to the next plac
 
 A website is hard to imagine and easy to judge, so we make a working sample first.
 
-- You see it on your own phone. In a minute you know whether you'd like it.
+- You open it and click around. In a minute you know whether you'd like it.
 - There's nothing to pay to look.
 - Your own website isn't touched. Nothing changes on it until you say so.
 - The sample isn't on Google, and we won't show it to anyone else. We'll delete it whenever you ask.

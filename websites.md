@@ -20,13 +20,16 @@ People look up a local business on their phones: are they open, what's on today,
 
 **Kartikey** builds your site, puts it live on your web address, and keeps it fast and secure. He has built software for more than ten years, for startups and small companies, many of them in the US. [More about Kartikey](/about/).
 
-### Why us
+### What a slow or confusing website costs a shop
 
-- **We've done this for a long time.** Kartikey has built software for more than ten years, for startups and small companies in the US, and has run the technology side of a company as its CTO. Sweta designs each site and writes every word on it.
-- **We know what a shop's website has to do on a phone.** People look you up on the way, in a parking lot, on a slow signal: are you open, what's on today, how do we get there. Most local business websites were built before phones were how people found places. We design the phone version first, on its own.
-- **You judge the work, not a pitch.** A website is hard to imagine and easy to judge, so we make yours first, and you open it on your own phone.
-- **AI makes us fast. Experience makes it right.** Anyone can have a chatbot write a website now. Knowing what belongs on the page, what to leave off, and what breaks on a real phone takes years. Every page goes through our own checks before you see it.
-- **It's yours.** One payment, and you own the design, the words and the pictures.
+Nobody writes to say they gave up on your website. They just go to the next place.
+
+- From one second to three, the chance a visitor leaves a phone page rises 32% (Google, 2017).
+- 76% of people who search nearby on their phone visit a related business within a day (Google, 2016).
+- 73% say they're unlikely to go back to a business listed as open online that turned out to be closed (Yext survey, 2022).
+- When Google shows an AI summary, people click through to a website on 8% of visits, against 15% without one (Pew Research Center, 2025).
+
+[The research, and what we do about each](https://proposals.kartikey.dev/losing-customers)
 
 ### How our samples work
 

@@ -1,10 +1,10 @@
 # Kartikey Tanna
 
-> Kartikey Tanna is a software engineer who has built software for more than ten years, for startups and small companies, most of them in the US, and is CTO of Hero Group LLC. With his wife Sweta, he makes websites for local businesses, as Sweta and Kartikey.
+> Kartikey Tanna is a software engineer who has built software for more than ten years, for startups and small companies, most of them in the US, and is CTO of Hero Group LLC. With his wife Sweta, he makes websites for small businesses, as Sweta and Kartikey.
 
-## Websites for local businesses
+## Websites for small businesses
 
-- [Websites for local businesses](https://www.kartikey.dev/websites/): what Sweta and Kartikey make, how their samples work, and what happens if you say yes. Each new website is made first as a working sample the owner can see working before deciding anything, and there's nothing to pay to look.
+- [Websites for small businesses](https://www.kartikey.dev/websites/): what Sweta and Kartikey make, how their samples work, and what happens if you say yes. Each new website is made first as a working sample the owner can see working before deciding anything, and there's nothing to pay to look.
 - [Sweta and Kartikey](https://proposals.kartikey.dev/): the studio's own site, with its facts in plain text at https://proposals.kartikey.dev/llms.txt
 - [Send us your website](https://proposals.kartikey.dev/start): they make a new version of it for you to try
 
@@ -24,5 +24,5 @@
 
 ## Contact
 
-- Websites for local businesses: hi@kartikey.dev
+- Websites for small businesses: hi@kartikey.dev
 - Kartikey on LinkedIn: https://www.linkedin.com/in/tannakartikey

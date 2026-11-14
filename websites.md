@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Websites for local businesses"
+title: "Websites for small businesses"
 nav_title: "Websites for businesses"
 permalink: /websites/
-description: "Sweta and Kartikey make websites for local businesses. We build each new website as a working sample first, so the owner can see it working before deciding anything. There's nothing to pay to look."
+description: "Sweta and Kartikey make websites for small businesses. We build each new website as a working sample first, so the owner can see it working before deciding anything. There's nothing to pay to look."
 ---
 
-We're Sweta and Kartikey, husband and wife, working from India. We want the internet to look good. Right now, that means making websites for local businesses.
+We're Sweta and Kartikey, husband and wife, working from India. We want the internet to look good. We start with small businesses.
 
 We make each new website as a working sample first, so the owner can see it working before deciding anything.
 

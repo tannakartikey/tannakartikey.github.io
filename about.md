@@ -2,7 +2,7 @@
 layout: about
 title: "About"
 permalink: /about/
-description: "Kartikey Tanna is a software engineer. He has built software for more than ten years, for startups and small companies, most of them in the US. With his wife Sweta, he makes websites for local businesses."
+description: "Kartikey Tanna is a software engineer. He has built software for more than ten years, for startups and small companies, most of them in the US. With his wife Sweta, he makes websites for small businesses."
 ---
 
 ### Hi, I'm Kartikey.
@@ -21,7 +21,7 @@ I also made [eKard](https://ekard.app/){:target="_blank" rel="noopener"}, digita
 
 ### Websites, with Sweta
 
-My wife Sweta and I make websites for local businesses, as [Sweta and Kartikey](https://proposals.kartikey.dev/). Sweta designs each site and writes its words. I build it, put it live, and keep it fast and secure.
+My wife Sweta and I make websites for small businesses, as [Sweta and Kartikey](https://proposals.kartikey.dev/). Sweta designs each site and writes its words. I build it, put it live, and keep it fast and secure.
 
 We make each new website as a working sample first, so the owner can see it working before deciding anything. There's nothing to pay to look. [How it works](/websites/), or [send us your website](https://proposals.kartikey.dev/start).
 

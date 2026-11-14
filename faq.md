@@ -3,7 +3,7 @@ layout: page
 title: "FAQs"
 permalink: /faq/
 ---
-These answers are about my freelance software work. For the websites Sweta and I make for local businesses, see [Websites for local businesses](/websites/).
+These answers are about my freelance software work. For the websites Sweta and I make for small businesses, see [Websites for small businesses](/websites/).
 
 **What is your educational qualification?**  
 I have done BE IT and MBA Entrepreneurship.

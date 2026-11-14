@@ -18,7 +18,7 @@ People look up a local business on their phones: are they open, what's on today,
 
 **Sweta** designs your site and writes its words. She or Kartikey will be on your call.
 
-**Kartikey** builds your site, puts it live on your web address, and keeps it fast and secure. He has built software for more than ten years, for startups and small companies, many of them in the US. [More about Kartikey](/about/).
+**Kartikey** builds your site, puts it live on your web address, and keeps it fast and secure. He has built software for more than ten years, for startups and small companies, most of them in the US. [More about Kartikey](/about/).
 
 ### What a slow or confusing website costs a shop
 

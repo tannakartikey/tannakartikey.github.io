@@ -2,12 +2,12 @@
 layout: about
 title: "About"
 permalink: /about/
-description: "Kartikey Tanna is a software engineer. He has built software for more than ten years, for startups and small companies, many of them in the US. With his wife Sweta, he makes websites for local businesses."
+description: "Kartikey Tanna is a software engineer. He has built software for more than ten years, for startups and small companies, most of them in the US. With his wife Sweta, he makes websites for local businesses."
 ---
 
 ### Hi, I'm Kartikey.
 
-I'm a software engineer. I have built software for more than ten years, for startups and small companies, many of them in the US. Most of it in Ruby on Rails.
+I'm a software engineer. I have built software for more than ten years, for startups and small companies, most of them in the US. Most of it in Ruby on Rails.
 
 Some of that work:
 
